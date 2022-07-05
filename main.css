@@ -1,10 +1,10 @@
 body {
-    background-color: #76c8ff;
+    background-color: lightpink;
     margin: 0;
 }
 
 header {
-    background-color: white;
+    background-color: rgb(236, 233, 229);
     text-align: right;
     padding: .75rem 0;
     border-bottom: solid 1px dimgray;
@@ -19,7 +19,7 @@ header {
 
 header a {
     color: white;
-    background-color: #13a0ff;
+    background-color: gray;
     border: solid 1px gray;
     border-radius: 3px;
     padding: .25rem .5rem;
@@ -31,27 +31,27 @@ header a {
 }
 
 header a:hover, form button:hover {
-    background-color: #1084d1;
+    background-color: rgb(241, 78, 105);
     cursor: pointer;
 }
 
 body {
-    background-color: #76c8ff;
+    background-color: lightpink;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     height: 100vh;
 }
 
 .container {
     margin: auto;
-    padding: 1.5rem;
-    background-color: white;
+    padding: 2rem;
+    background-color: rgb(236, 233, 229);
     border: solid 1px gray;
     border-radius: 5px;
     box-shadow: 
-    0 4px 8px 0 rgba(0, 0, 0, 0.2)
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    1 8px 12px 1 rgba(128, 0, 0, 0.8)
+    1 10px 224px 1 rgba(128, 0, 0, 1.0);
 }
 
 .container > h1 {
@@ -74,13 +74,24 @@ form input, form button {
     border-radius: 3px;
 }
 
+::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgrayS;
+    text-align: left;
+
+}
+
 form button {
     color: white;
-    background-color: #13a0ff;
+    background-color: gray;
+}
+
+.register-form {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 footer {
-    margin-top: .75rem;
+    margin-top: 1rem;
     border-top: solid 1px lightgray;
     padding-top: 1rem;
     text-align: center;
@@ -91,5 +102,5 @@ footer img {
 }
 
 footer img:hover {
-    cursor: pointer;
+    cursor: crosshair;
 }
